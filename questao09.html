@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>009 - Exercício</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: monospace;
+            color: white;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <br>
+    <h1>INSTITUTO FEDERAL DE PERNAMBUCO <br>
+        Aluna: Lívia Couto <br>
+        Prof.: Carlos Rezende <br>
+        Curso: IPI - 1º Período (Noite) <br>
+        Disciplina: Lógica de Programação 💡 <br><br>
+    </h1>
+    
+    <h2> Exercício 09 =) </h2><br> 
+    
+    <h2>"Elabore um algoritmo que leia do teclado uma quantidade de segundos <br> e transforme este tempo em
+        dias, horas e minutos."<br> 
+        Exiba na tela os valores calculados. <br>
+        Dica: <br>
+        MIN = SEG / 60; <br>
+        HORAS = MIN / 60; <br>
+        DIAS = HORAS / 24."<br><br>
+        
+        Atividade concluída! ✔🙌🏻</h2>
+
+    <script>
+        alert("EXERCÍCIO 09! 🤯");
+        var dado1 = prompt("Digite o tempo em segundos: ");
+        dado1 = parseFloat(dado1);
+        var minutos = (dado1 / "60");
+        var horas = (minutos / "60");
+        var dias = (horas / "24");
+        minutos = parseInt(minutos);
+        horas = parseInt(horas);
+        dias = parseInt(dias);
+
+        alert(dado1 + " segundos são iguais a " + minutos + " minutos, " + horas + " horas e " + dias + " dias.")
+
+    </script>
+</body>
+</html>
