@@ -4,4 +4,4 @@
 * HTML / CSS / JS - Operadores aritméticos, lógicos, condicionais, de atribuição e de comparação.
   
 * Aluna: Lívia Couto
-* Professor: Carlos Rezende
+* Professor: Carlos Rezende Brasil Neto
